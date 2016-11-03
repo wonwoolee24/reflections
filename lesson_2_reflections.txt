@@ -14,13 +14,39 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    Even I changed several logics before commiting, I can add only one logic to
+     the staging area and commit it so that it is possible to have one commit
+     per logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When adding some experimental features or localizing.
+    Since branches are like projects different each other, a change to a branch
+     doesn't affect the others commit histories. So we can manage the commit
+     histories more cleaner.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams show relations between commits and, branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Comparing two branches with their common parent commit, removed contents
+     from thw parent commit is not present in the merged commit, and added
+     contents to the parent commit is present in the merged commit. Of course
+     unchanged contents are included.
+    The merged branch is from several branches. So that has multiple parents
+     as the same number of branches merged.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    automatically:
+        pros: convenient
+        cons: even unwanted changes may also be included
+
+    manually:
+        pros: can select only changes that I want to include
+        cons: inconvenient
