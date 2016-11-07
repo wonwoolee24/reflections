@@ -31,4 +31,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When suggesting new features, ideas, and so on.
+    Using a separate branch makes the master branch or other main branches
+     clean.
+    Using the master branch directly is simple, straightforward.
